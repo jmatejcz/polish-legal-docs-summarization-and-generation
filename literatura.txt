@@ -1,0 +1,25 @@
+LITERATURA, state of the art:
+	streszczanie dokumentów można podzielić na:
+	- obszerne - wyciąganie fragmentów tekstu z dokumentu, które uznamy za ważne.
+	- abstrakcyjne - w oparciu o zrozumienie dokumentu, piszemy nowe zdania, które dobrze oddają esencję dokumentu.
+	Przed erą AI, streszczanie skupiało się na 1 metodzie, natomiast w przypadku dokumentów prawnych, którą są długie, złożone i napisane formalnym językiem, 
+	takie podejście nie sprawdzało się najlepiej, ponieważ streszczenia takie ciągle musiały być długie, i formalne co jest troche zaprzeczeniem streszczenia.
+	Z zalet tego podejścia, niekórzy argumentują, że dokumenty prawne są skomplikowane, więc nie da się bez obszernego streszczenia w pełni oddać ich znaczenia.
+
+	Nie znalazłem, żadnej pracy operującej na polskich dokumentach prawnych/prawniczych w zakresie streszczania lub generowania. 
+	Znalazłem natomiast pracę o klasyfikacji orzeczeń sądów [https://www.mdpi.com/1424-8220/22/6/2137] napisaną między innymi przez profesora PW - Roberta Nowaka.
+	Bazuje ona na zbiorze zanonimizowanych orzeczeń sądów publikowanych przez sądy. Niestety zawiera ona jedynie wyroki bez wcześniejszych pism z obu stron.
+	Idąc tym tropem szukałem publicznych, rządowych baz, pytając rówież osoby z branży, jednak nie istnieje żadna publiczna baza zawierająca pisma pisane przez prawników
+	na potrzeby spraw sądowych.
+
+	W pracy Automatic Summarization of Legal Text[https://studenttheses.uu.nl/handle/20.500.12932/34261] 
+	wytrenowano wlasny model NLP do dokuemntow w języku holenderskim. Jako metryk użyto streszczeń porównawczych i metyk ROUGE. Przeprowadzono też 
+	eksperyment, w którym ludzie studiujący prawo mieli ocenić jakość tych streszczań. Najpierw studenci czytali i zaznajamiali się z dokumentem, 
+	potem oceniali streszczenia, w tym te wygrnerowane przez model i oceniali w skali od 1 do 10 trafność i czytelność. Wyniki pokazywały, że
+	model często nie uwzględnia w streszczeniu ważnych informacji, oraz popelnia blędy składniowe.
+
+	W pracy Legal Case Document Summarization: Extractive and Abstractive Methods and their Evaluation[https://aclanthology.org/2022.aacl-main.77.pdf]
+	
+	
+	
+
