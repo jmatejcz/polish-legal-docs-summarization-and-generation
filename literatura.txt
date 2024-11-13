@@ -14,6 +14,7 @@ LITERATURA, state of the art:
 	prawne != prawnicze/sądowe
 
 	Teraz krótko opiszę metody i metryki do oceny streszczeń, które pojawiają się w pracach: 
+
 	Extractive Summarization of Text Using Supervised and Unsupervised Techniques [https://ieeexplore.ieee.org/document/9537883]
 	- Pierwsza kategoria to metody ekstrakcyjne, nienadzorowane,  do stosowania ogólnego (streszczania kazdego rodzaju dokumentów), np.: 
 		- Reduction - Metoda ta polega na identyfikacji i usuwaniu mniej istotnych fragmentów tekstu, koncentrując się na zachowaniu kluczowych informacji.
@@ -28,6 +29,19 @@ LITERATURA, state of the art:
 		- BERTSum - Rozszerzenie modelu BERT dostosowane do zadań streszczania ekstrakcyjnego. Model ten klasyfikuje każde zdanie jako 
 		odpowiednie lub nieodpowiednie do streszczenia.
 	- 
+
+	Metryki używane do oceny streszczeń, które pojawiają się najczęsciej:
+
+	- ROUGE-N - Mierzy nakładanie się n-gramów (ciągów n słów) między podsumowaniem a tekstem referencyjnym. Na przykład, ROUGE-1 analizuje 
+	pojedyncze słowa, a ROUGE-2 pary słów.
+	- ROUGE-L - Opiera się na najdłuższym wspólnym podciągu między podsumowaniem a tekstem referencyjnym, uwzględniając strukturę zdań.
+	- ROUGE-S - Analizuje pary słów w ich oryginalnej kolejności, nawet jeśli nie są one sąsiadujące w tekście.
+	Rodzina metryk ROUGE koncentruje się na powierzchniowym dopasowaniu słów, co może nie w pełni oddawać semantycznej zgodności między tekstami.
+
+	- BERTScore - wykorzystuje zaawansowane modele językowe, takie jak BERT, do oceny podobieństwa między tekstami na poziomie semantycznym. 
+	Zamiast porównywać dokładne dopasowanie słów, BERTScore oblicza podobieństwo między osadzonymi wektorami słów, 
+	co pozwala na uchwycenie kontekstu i znaczenia. BERTScore wykazuje wyższą korelację z ocenami ludzkimi w porównaniu 
+	z tradycyjnymi metrykami, takimi jak ROUGE, zwłaszcza w zadaniach wymagających głębszego zrozumienia kontekstu.
 
 	Nie znalazłem, żadnej pracy operującej na polskich dokumentach prawnych w zakresie streszczania lub generowania. 
 	Znalazłem natomiast pracę o klasyfikacji orzeczeń sądów [https://www.mdpi.com/1424-8220/22/6/2137] napisaną między innymi przez profesora 
@@ -45,9 +59,19 @@ LITERATURA, state of the art:
 	naukowcy wskazują podobne problemy, które ja również napotykam - trudność w użyciu nadzorowanego uczenia, dlatego iż ciężko o duże ilości streszczeń 
 	napisanych przez prawników, co sprawia, że zbiory danych są bardzo małe. Dodatkowo wskazują oni na to, że streszczania dokumentów prawniczych są dłuższe niż 
 	w przypadku innych dokumentów, ponieważ są one bardziej skomplikowane. W pracy użyto zbiorów wyroków sądów najwyższych w Indiach i Wielkiej Brytanii
-	oraz ich streszczeń napisanych przez profesjonalistów. Praca porówuje metody ekstrakcyjne i abstrakcyjne, zarówno nadzrorowane jak i nie. Naukowcy wskazują
-	kolejny problem, który pojawia się przy długich dokumentach, mianowicie nie mieszczą się one w wejściu modelu, w związku z tym proponują oni 
-	2 podejścia: segmentacja tekstu oraz najpierw streszczenie ekstrakcyjne i potem streszczenie abstrakcyjne na podstawie ekstrakcyjnego. 
+	oraz ich streszczeń napisanych przez profesjonalistów. Praca porówuje metody ekstrakcyjne i abstrakcyjne, zarówno nadzrorowane jak i nie. Naukowcy 
+	wskazują kolejny problem, który pojawia się przy długich dokumentach, mianowicie nie mieszczą się one w wejściu modelu, w związku z tym proponują 
+	oni 2 podejścia: segmentacja tekstu oraz najpierw streszczenie ekstrakcyjne i potem streszczenie abstrakcyjne na podstawie ekstrakcyjnego.
+	Wyniki Przeprowadzonych testów pokazują podobne wartości metryk ROUGE i BertScore między streszczaniami ekstrakcyjnymi(nadzorowanymi i nie) 
+	i abstrakcyjnymi, natomiast eksperci preferują streszczenia ekstrakcyjnie, jako że są dokładniejsze.
+
+	W pracy z października 2024, czyli bardzo świeżej- Advancing Legal Document Summarization: Introducing an Approach Using a Recursive Summarization 
+	Algorithm [https://link.springer.com/article/10.1007/s42979-024-03277-3], naukowcy wprowadzają nowatorskie podejście do streszczenia długich dokumentów
+	prawnych - RecSumm. [https://github.com/Saloni-sharma29/Recursive-summarization]. System opiera się na podziale tekstu na częsci, podsumowaniem ich
+	oddzielnie, a następnie iteracyjnego poprawiania kolejnych streszczeń na podstawie poprzednich. na koniec łączy wszystko w całość. Według naukowców 
+	system ten przewyższył w metrykach wszystkie z modeli LLM, w tym te przystosowane do dziedziny, w tym. Chat GPT, Gemini, Pegasus.
+
+
 
 	
 	
