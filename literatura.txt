@@ -88,10 +88,7 @@ LITERATURA, state of the art:
 	Knowledge-Based Legal Document Assembly [https://arxiv.org/abs/2009.06611] na podstawie wywiadu z prawnikiem program generuje szablon 
 	dopasowany do sprawy
 
-	Bazy danych:
-	
-	Nie istnieje baza danych wszystkich pism które są pisane na drodze sądowej, istnieje natomiast baza wyroków. Na dokumentach z tej bazy
-	mogę porównać wyniki z innymi pracami. [https://orzeczenia.ms.gov.pl/]
+
 	
 	
 	
