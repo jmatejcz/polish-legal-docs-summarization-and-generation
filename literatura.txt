@@ -65,14 +65,33 @@ LITERATURA, state of the art:
 	Wyniki Przeprowadzonych testów pokazują podobne wartości metryk ROUGE i BertScore między streszczaniami ekstrakcyjnymi(nadzorowanymi i nie) 
 	i abstrakcyjnymi, natomiast eksperci preferują streszczenia ekstrakcyjnie, jako że są dokładniejsze.
 
-	W pracy z października 2024, czyli bardzo świeżej- Advancing Legal Document Summarization: Introducing an Approach Using a Recursive Summarization 
+	W pracy z 10 października 2024, czyli bardzo świeżej- Advancing Legal Document Summarization: Introducing an Approach Using a Recursive Summarization 
 	Algorithm [https://link.springer.com/article/10.1007/s42979-024-03277-3], naukowcy wprowadzają nowatorskie podejście do streszczenia długich dokumentów
 	prawnych - RecSumm. [https://github.com/Saloni-sharma29/Recursive-summarization]. System opiera się na podziale tekstu na częsci, podsumowaniem ich
 	oddzielnie, a następnie iteracyjnego poprawiania kolejnych streszczeń na podstawie poprzednich. na koniec łączy wszystko w całość. Według naukowców 
-	system ten przewyższył w metrykach wszystkie z modeli LLM, w tym te przystosowane do dziedziny, w tym. Chat GPT, Gemini, Pegasus.
+	system ten przewyższył w metrykach wszystkie z popularnych modeli LLM, w tym te przystosowane do dziedziny - Chat GPT, Gemini, Pegasus.
 
+	Teraz o generowaniu:
+	
+	Niewiele jest prac w temacie generowania dokumentów sądowych, w pracach z tym związanych autorzy zwracają uwagę, że do napisania poprawnego
+	dokumentu sądowego potrzebna jest wiedza na temat przepisów, ich interpretacji, zrozumienia okoliczności , dobre uargumentowanie itp.
+	co jest zadaniem na ten moment za trudnym dla algorytmów. AI  w sądownictwie jest częściej wykorzystywane do przydzielania spraw, wydawanie
+	standardowych zarządzeń, analizie materiału dowodowego, czy orzekania w sprawach prostych i powtarzalnych. Nie znalazlem jednak żadnego narzędzia 
+	lub pracy o koknretnie wygenerowaniu pełnego dokumentu sądowego. Warto zaznaczyć, że nawet jeżeli jakiś model rozumie prawo i potrafi je 
+	interpretować w jednym kraju, to nie znaczy, że będzie to potrafił w innym, np. Polsce, jako, że prawo i jego interpretacje różnią się między 
+	krajami. Najwięszke doświadczenie z wprowadzaniem AI do sądownictwa mają Chiny, gdzie zaczęto ją wykorzystywać już w 2017r. W Unii, która jest nam 
+	bliższa jest to mocno utrudnione przez AI Act.
 
+	Praca również nowa bo z 9 października 2024 Unlocking authentic judicial reasoning: A Template-Based Legal Information Generation 
+	framework for judicial views[https://www.sciencedirect.com/science/article/pii/S0950705124008669]. 
 
+	Knowledge-Based Legal Document Assembly [https://arxiv.org/abs/2009.06611] na podstawie wywiadu z prawnikiem program generuje szablon 
+	dopasowany do sprawy
+
+	Bazy danych:
+	
+	Nie istnieje baza danych wszystkich pism które są pisane na drodze sądowej, istnieje natomiast baza wyroków. Na dokumentach z tej bazy
+	mogę porównać wyniki z innymi pracami. [https://orzeczenia.ms.gov.pl/]
 	
 	
 	
