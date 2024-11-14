@@ -1,0 +1,14 @@
+Na podstawie analizy literatury i analizy natury dokumentów doszedłem do wniosku, że zadanie generowania w zamyśle takim jaki miałem na początku 
+wymagałoby wytrenowania modelu zdolnego do interpretacji przepisów prawnych, zrozumienia okoliczności itp. co jest zadaniem chyba niemożliwym
+w pojedynkę na pracę magisterską. W związku z tym skłaniam się w stronę streszczania.
+
+Trudności ze streszczeniem dokumentów prawnych wymienione w literaturze wskazują, że jest to trudne zadania, ale nie wszystkie one tyczą się
+dokumnetów sądowych. Często podnoszony argument o tym, że na podstawie streszczenia abstrakcyjnego nie da się w pełni poprawnie zinterpretować
+dokumentu, jest prawdziwy, ale uważam, że głównie w dokumentach typu: ustawy, rozporządzenia, umowy cywilnoprawne, natomiast pisma sądowe 
+nie są aż tak zależe od doboru słów  i raczej nie trzeba się zastanawiać nad ich interpretacją. Kolejnym problem zdaje się być długość dokumentów.
+O ile pozwy czy odpowiedzi na pozew, gdzie dużo jest załączników do dowodów potrafią mieć nawet 50 stron, o tyle większość z tego zazwyczaj to własnie
+dowody, których tak naprawdę nie trzeba streszczać. Wynika to z natury dowodów, jeżeli prawnik będzie chciał się z nim zaznajomić to i tak musi go w 
+całości obejrzeć / przeczytać. Odrzucając dowody zostają wnioski/zarzuty i uzasadnienie, które łącznie zazwyczaj nie przekraczają 10 stron.
+
+
+
