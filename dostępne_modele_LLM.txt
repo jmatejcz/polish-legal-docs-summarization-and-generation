@@ -1,0 +1,5 @@
+LLMy dostępne jedynie online:
+- Chat-GPT 4 - ogromny model, dokładny rozmiar nie został ujawniony, wersja 3 miała 175 miliardów parametrów. Bardzo popularny, o bardzo szerokim zatosowaniu
+- Cloude - podobnie ale 
+Offline:
+- BERT (https://huggingface.co/google-bert/bert-base-uncased)(https://github.com/google-research/bert) -
