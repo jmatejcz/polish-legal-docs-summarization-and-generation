@@ -1,5 +1,23 @@
+Nie wymienię tutaj oczywiście wszystkich, jedynie te w polu moje zainteresowania
+
 LLMy dostępne jedynie online:
 - Chat-GPT 4 - ogromny model, dokładny rozmiar nie został ujawniony, wersja 3 miała 175 miliardów parametrów. Bardzo popularny, o bardzo szerokim zatosowaniu
-- Cloude - podobnie ale 
+- Cloude - podobnie co Chat GPT
 Offline:
-- BERT (https://huggingface.co/google-bert/bert-base-uncased)(https://github.com/google-research/bert) -
+- BERT (https://github.com/google-research/bert) -
+    w wersjach:
+        - BERT Base (110 milionów parametrów) (https://huggingface.co/google-bert/bert-base-uncased)
+        - BERT Large (340 milionów parametrów) (https://huggingface.co/google-bert/bert-large-uncased)
+        - BERT-Multilingual (179 milionów parametrów) (https://huggingface.co/google-bert/bert-base-multilingual-cased)
+        - DistilBERT (67 milionów parametrów) (https://huggingface.co/distilbert/distilbert-base-uncased)
+- BIELIK.AI (https://huggingface.co/speakleash/Bielik-11B-v2)
+polski model językowy, opracowany na bazie podelu Mistral-7B
+
+- Legal-BERT - model BERT dostosowany do analizy tekstów prawnych
+        - BASE (110 milionów parametrów) (https://huggingface.co/nlpaueb/legal-bert-base-uncased)
+        - SMALL (36 milionów parametrów) https://huggingface.co/nlpaueb/legal-bert-small-uncased
+        - są też edycje dostosowane do prawa w dziedzinach:
+            - CONTRACTS-BERT-BASE - amerykańskie kontrakty 
+            - EURLEX-BERT-BASE - legislacja Unii Europejskiej
+            - ECHR-BERT-BASE - orzeczenia Europejskiego Trybunału Praw Człowieka
+- PEGASUS - posiada wiele wersji dostosowanych
