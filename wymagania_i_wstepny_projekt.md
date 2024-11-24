@@ -23,10 +23,10 @@ Jako metryki do oceny streszczeń wykorzystam popularne w tym zakresie metryki z
 
 ## Wstępny podział na podzadania
 Biorąc pod uwagę analizę literatury, naturę dokumentów i dostępne rozwiązania stawiam przed swoją pracą następujące wymagania:
-    - stworzenie małej bazy dokumentów, zawierającej możliwie dużo streszczeń przygotowanych przez profesjonalistów
-    - zanonimizowanie tych dokumentóœ
-    - Wstępne przestestoawnie poszczególnych modeli i zdecydowanie się na te najbardziej obiecujące.
-    - Dotrenowanie wybranych modeli 
-    - Przetestowanie i porównanie streszczeń generowanych przez oryginalne modele z tymi dotrenowanymi 
-    - Porównanie z modelami online oraz innymi rozwiązaniami z innych prac na publicznych orzeczeniach sądów 
+- stworzenie małej bazy dokumentów, zawierającej możliwie dużo streszczeń przygotowanych przez profesjonalistów
+- zanonimizowanie tych dokumentóœ
+- Wstępne przestestoawnie poszczególnych modeli i zdecydowanie się na te najbardziej obiecujące.
+- Dotrenowanie wybranych modeli 
+- Przetestowanie i porównanie streszczeń generowanych przez oryginalne modele z tymi dotrenowanymi 
+- Porównanie z modelami online oraz innymi rozwiązaniami z innych prac na publicznych orzeczeniach sądów 
 

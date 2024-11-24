@@ -76,13 +76,13 @@ PW - Roberta Nowaka. Bazuje ona na zbiorze zanonimizowanych orzeczeń publikowan
 wcześniejszych pism z obu stron. Idąc tym tropem szukałem publicznych, rządowych baz, pytając rówież osoby z branży, jednak nie istnieje 
 żadna publiczna baza zawierająca polskie pisma prawnicze.
 
-W pracy Automatic Summarization of Legal Text[https://studenttheses.uu.nl/handle/20.500.12932/34261] 
+W pracy Automatic Summarization of Legal Text [https://studenttheses.uu.nl/handle/20.500.12932/34261] 
 wytrenowano wlasny model NLP do dokumentow w języku holenderskim. Jako metryk użyto streszczeń porównawczych i metyk ROUGE. Przeprowadzono też 
 eksperyment, w którym ludzie studiujący prawo mieli ocenić jakość tych streszczań. Najpierw studenci czytali i zaznajamiali się z dokumentem, 
 potem oceniali streszczenia, w tym te wygrnerowane przez model i oceniali w skali od 1 do 10 trafność i czytelność. Wyniki pokazywały, że
 model często nie uwzględnia w streszczeniu ważnych informacji, oraz popełnia blędy składniowe.
 
-W pracy Legal Case Document Summarization: Extractive and Abstractive Methods and their Evaluation[https://aclanthology.org/2022.aacl-main.77.pdf]
+W pracy Legal Case Document Summarization: Extractive and Abstractive Methods and their Evaluation [https://aclanthology.org/2022.aacl-main.77.pdf]
 naukowcy wskazują podobne problemy, które ja również napotykam - trudność w użyciu nadzorowanego uczenia, dlatego iż ciężko o duże ilości streszczeń 
 napisanych przez prawników, co sprawia, że zbiory danych są bardzo małe. Dodatkowo wskazują oni na to, że streszczania dokumentów prawniczych są dłuższe niż 
 w przypadku innych dokumentów, ponieważ są one bardziej skomplikowane. W pracy użyto zbiorów wyroków sądów najwyższych w Indiach i Wielkiej Brytanii
