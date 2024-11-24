@@ -25,11 +25,39 @@ Nie istnieje baza danych wszystkich pism które są pisane na drodze sądowej, i
 mogę porównać wyniki z innymi pracami. [https://orzeczenia.ms.gov.pl/].
 Mam zamiar stworzyć własną małą bazę danych pism sądowych - pozwów, odpowiedz, pism przygotowawczych, apelacji, wezwań, zarządzeń. 
 Dokumenty będą pogrupowane według spraw. Do tego możliwie dużo streszczeń referencyjnych do tych dokumentów napisanych przez profesjonalistów.
-Planuję bazę zawierającą kilkaset dokumentów.
+
+### Anonimizacja
+
+Interesują mnie narzędzia do anonimiacji dostępne za darmo oraz offline, wśród takich znalazłem:
+- spaCy + MedSpaCy - biblioteka NLP z opcją wykrywania danych osobowych
+- Presidio - narzędzie od Microsoft 
+- Faker - Generowanie fikcyjnych danych zamiast rzeczywistych
+- Scrubadub - proste narzędziw w Pythonie
+
+
+### Streszczenia
+
+Prawnicy poproszeni o pisanie streszczeń to dokumentów, tworzą raczej krótkie streszczenia zawierające tylko kluczowe informacje, takie informacje najbardziej ich interesują:
+ - o co składający pismo wnosi /czy uznaje powództwo, czy wnosi o odrzucenie pozwu?​
+- jakie składa wnioski dowodowe /świadkowie , dokumenty , biegły sądowy?​
+- fakty sporne/co kwestionuje/ i fakty bezsporne/czego nie kwestionuje? 
+
+Przykładowo:
+
+pozwany wnosi o oddalenie powództwa w całości.​
+
+składa wnioski:​
+
+dopuszczenie dowodu z dokumentu - akt szkody​
+
+dopuszczenie dowodu z zeznań świadka jana kowalskiego​
+
+dopuszczenie dowodu z opinii biegłego z  zakresu techniki samochodowej i ruchu drogowego​
+
+Fakty sporne to wysokość stawki roboczogodziny, pozwany obniżył stawkę rbh z 290 zł na 120 zł. ​
 
 ### Uwagi 
 
 Pobieram dokumenty z jednej kancelarii, i o ile istnieje pewien formalizm pisania takich pism, o tyle różnią się one troche między kancelariami.
 Dodatkowo każda kancelaria specjalizuje sie w pewnych sprawach(np. karnych, lub o rozwody), nie oznacza to ,że brak ejst tam innych spraw,
 ale spraw z innch dziedzin będzie zdecydowanie mniej.
-
